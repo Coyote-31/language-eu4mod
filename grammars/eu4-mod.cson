@@ -1,7 +1,12 @@
 name: 'EU4 -> .mod'
-scopeName: 'source.eu4-mod'
+scopeName: 'source.eu4-mod.mod'
+type: 'tree-sitter'
+parser: 'tree-sitter-eu4-mod'
 
 # File's extensions managed
 fileTypes: [
   'mod'
 ]
+
+scopes:
+  'scope_file': 'entity.name.function'

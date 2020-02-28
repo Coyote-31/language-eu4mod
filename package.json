@@ -1,0 +1,25 @@
+{
+  "name": "language-eu4-mod",
+  "version": "0.0.1",
+  "description": "Various grammars for modding files in Europa Universalis IV.",
+  "main": "index.js",
+  "keywords": [
+    "grammars",
+    "eu4",
+    "europa",
+    "universalis",
+    "IV",
+    "paradox",
+    "mod"
+  ],
+  "author": "Richard ANDRIAN (Coyote-31)",
+  "license": "MIT",
+  "homepage": "https://github.com/Coyote-31/language-eu4-mod/#readme",
+  "bugs": {
+    "url": "https://github.com/Coyote-31/language-eu4-mod/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Coyote-31/language-eu4-mod.git"
+  },
+}
