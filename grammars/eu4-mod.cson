@@ -1,0 +1,7 @@
+name: 'EU4 -> .mod'
+scopeName: 'source.eu4-mod'
+
+# File's extensions managed
+fileTypes: [
+  'mod'
+]
