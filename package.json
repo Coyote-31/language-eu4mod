@@ -24,8 +24,5 @@
   "main": "./lib/language-eu4-mod",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "tree-sitter-eu4-mod": "0.0.3"
   }
 }
