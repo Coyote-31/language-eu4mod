@@ -2,7 +2,6 @@
   "name": "language-eu4-mod",
   "version": "0.0.1",
   "description": "Various grammars for modding files in Europa Universalis IV.",
-  "main": "index.js",
   "keywords": [
     "grammars",
     "eu4",
@@ -18,8 +17,14 @@
   "bugs": {
     "url": "https://github.com/Coyote-31/language-eu4-mod/issues"
   },
+  "dependencies": {
+    "tree-sitter-eu4-mod": "^0.0.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Coyote-31/language-eu4-mod.git"
   },
+  "dependencies": {
+    "tree-sitter-eu4-mod": "^0.0.1"
+  }
 }
