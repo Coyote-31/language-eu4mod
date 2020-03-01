@@ -1,4 +1,4 @@
-name: 'EU4 .mod'
+name: 'EU4-mod .mod'
 scopeName: 'source.eu4-mod.mod'
 type: 'tree-sitter'
 parser: 'tree-sitter-eu4-mod'
@@ -9,4 +9,4 @@ fileTypes: [
 ]
 
 scopes:
-  'source_file': {exact: 'hello', scopes: 'entity.invalid.test'}
+  'source_file': {exact: 'hello', scopes: 'invalid.illegal.test.mod.eu4mod'}

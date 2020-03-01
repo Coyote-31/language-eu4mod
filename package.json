@@ -22,9 +22,9 @@
     "type": "git",
     "url": "https://github.com/Coyote-31/language-eu4-mod"
   },
-  "package-deps": [
-    "tree-sitter-eu4-mod"
-  ],
+  "dependencies": {
+    "tree-sitter-eu4-mod": "^0.0.7"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   }
