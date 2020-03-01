@@ -1,4 +1,4 @@
-# Package : language-eu4-mod
+# Package : language-eu4-mod (Alpha)
 
 ## Description :
 
