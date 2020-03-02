@@ -1,7 +1,7 @@
-name: 'EU4-mod .mod'
-scopeName: 'source.eu4-mod.mod'
+name: 'EU4 .mod'
+scopeName: 'source.eu4mod.mod'
 type: 'tree-sitter'
-parser: 'tree-sitter-eu4-mod'
+parser: 'tree-sitter-eu4mod'
 
 # File's extensions managed
 fileTypes: [
