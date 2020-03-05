@@ -1,4 +1,4 @@
-# Package : language-eu4mod (Alpha)
+# Package : language-eu4mod [Alpha]
 
 ## Description :
 
@@ -14,6 +14,7 @@ package.
 ### [GitHub](https://github.com/Coyote-31/language-eu4mod#readme)
 
 ## Documentation :
+
 * **[Flight-manual.atom.io](https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/)**
 ____
 
