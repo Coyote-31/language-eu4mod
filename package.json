@@ -1,6 +1,6 @@
 {
   "name": "language-eu4mod",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Add tree-sitter grammar syntaxs for modding files in Europa Universalis IV. [Alpha]",
   "keywords": [
     "grammars",
