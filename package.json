@@ -1,7 +1,7 @@
 {
   "name": "language-eu4mod",
   "version": "0.2.0",
-  "description": "Add tree-sitter grammar syntaxs for modding files in Europa Universalis IV. [Alpha]",
+  "description": "Tree-Sitter syntax for Europa Universalis IV. [Alpha]",
   "keywords": [
     "grammars",
     "eu4",
@@ -19,7 +19,7 @@
     "url": "https://github.com/Coyote-31/language-eu4mod"
   },
   "dependencies": {
-    "tree-sitter-eu4mod": "^0.2.0"
+    "tree-sitter-eu4mod": "^0.2.1"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"

@@ -16,7 +16,7 @@ scopes:
 
   'dot_mod > mod_multi_line > mod_var_name_multi': 'variable.assignement.eu4mod.mod'
   'dot_mod > mod_multi_line > mod_equal': 'keyword.operator.assign.eu4mod.mod'
-  'dot_mod > mod_multi_line > mod_var_value': 'string.quoted.double.eu4mod.mod'
+  'dot_mod > mod_multi_line > mod_multi_line_content > mod_var_value': 'string.quoted.double.eu4mod.mod'
 
   'warning_space_tab': 'invalid.deprecated.warning.eu4mod.mod'
   'debug': 'invalid.illegal.debug.eu4mod.mod'
