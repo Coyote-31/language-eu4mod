@@ -1,12 +1,17 @@
 {
   "name": "language-eu4mod",
   "version": "0.2.0",
-  "description": "Tree-Sitter syntax for Europa Universalis IV. [Alpha]",
+  "description": "EU4 language support in Atom. [Alpha]",
   "keywords": [
-    "grammars",
-    "eu4",
-    "paradox",
-    "mod"
+    "treesitter",
+    "tree-sitter",
+    "grammar",
+    "syntax",
+    "europa",
+    "universalis",
+    "iv",
+    "mod",
+    "modding"
   ],
   "author": "Richard ANDRIAN (Coyote-31)",
   "license": "MIT",
