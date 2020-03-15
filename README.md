@@ -1,6 +1,6 @@
 # `language-eu4mod` [Alpha]
 
-[![APM](https://img.shields.io/apm/v/language-eu4mod?color=%230E8EF3&logo=atom&logoColor=%2380f2a6)](https://atom.io/packages/language-eu4mod) [![Travis (.com)](https://img.shields.io/travis/com/Coyote-31/language-eu4mod?label=Atom%20CI&logo=Travis)](https://travis-ci.com/github/Coyote-31/language-eu4mod) [![GitHub](https://img.shields.io/github/license/Coyote-31/language-eu4mod?color=%230f1014)](https://img.shields.io/github/license/Coyote-31/language-eu4mod)
+[![APM](https://img.shields.io/apm/v/language-eu4mod?color=%23147dce&logo=atom&logoColor=%2380f2a6)](https://atom.io/packages/language-eu4mod) [![Travis (.com)](https://img.shields.io/travis/com/Coyote-31/language-eu4mod?label=Atom%20CI&logo=Travis&color=%234bb522)](https://travis-ci.com/github/Coyote-31/language-eu4mod) [![GitHub](https://img.shields.io/github/license/Coyote-31/language-eu4mod?color=%230f1014)](https://img.shields.io/github/license/Coyote-31/language-eu4mod)
 
 📦 [**`language-eu4mod`**](https://atom.io/packages/language-eu4mod) is a global **[tree-sitter](http://tree-sitter.github.io/tree-sitter/)** grammar for **Europa Universalis IV**.
 
@@ -23,11 +23,11 @@ To install [`language-eu4mod`](https://atom.io/packages/language-eu4mod) it's li
 
 ### Which EU4 file extension is managed :
 
-|  Extension   | Supported |
-|    :---:     |   :---:   |
-| file**.mod** |    ✅     |
-| file**.gui** |    ❌     |
-| file**.gfx** |    ❌     |
+| Extension | Supported |
+|  :---:    |   :---:   |
+|   .mod    |    ✅     |
+|   .gui    |    ❌     |
+|   .gfx    |    ❌     |
 
 
 ## 📚 Documentation
@@ -36,9 +36,7 @@ To install [`language-eu4mod`](https://atom.io/packages/language-eu4mod) it's li
 
 This package enable Atom's themes with syntax highlighting to catch syntax nodes by specifying scope mappings in a grammar definition file.
 
-In Atom syntax highlighting is define with `css` class. And this package map the syntax nodes to theses class with grammar `.cson` files. But the structure of theses tree-syntax nodes is define in the parser which is in the dependency package : **[`tree-sitter-eu4mod`](https://github.com/Coyote-31/tree-sitter-eu4mod#readme)**
-
-
+In Atom syntax highlighting is define with `css` class. And this package map the syntax nodes to theses class fallowing grammar `.cson` files directives. But the structure of theses tree-syntax nodes is define in the parser which is in the dependency package : **[`tree-sitter-eu4mod`](https://github.com/Coyote-31/tree-sitter-eu4mod#readme)**
 
 
 ### Repository & Releases :
