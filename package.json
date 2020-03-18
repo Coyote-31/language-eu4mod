@@ -24,7 +24,7 @@
     "url": "https://github.com/Coyote-31/language-eu4mod"
   },
   "dependencies": {
-    "tree-sitter-eu4mod": "^0.2.1"
+    "tree-sitter-eu4mod": "^0.2.2"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
