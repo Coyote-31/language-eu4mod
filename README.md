@@ -22,8 +22,8 @@ To install [`language-eu4mod`](https://atom.io/packages/language-eu4mod) it's li
 | Extension | Supported |
 |  :---:    |   :---:   |
 |   .mod    |    ✅     |
+|   .gfx    |    ✅     |
 |   .gui    |    ❌     |
-|   .gfx    |    ❌     |
 
 
 ## 📚 Documentation
