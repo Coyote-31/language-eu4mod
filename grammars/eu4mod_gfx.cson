@@ -1,0 +1,42 @@
+name: 'EU4 .gfx'
+scopeName: 'source.eu4mod.gfx'
+type: 'tree-sitter'
+parser: 'tree-sitter-eu4mod'
+
+# File's extensions managed
+fileTypes: [
+  'gfx'
+]
+
+scopes:
+  # meta.tag.eu4mod.gfx
+  # entity.name.eu4mod.gfx
+  # entity.other.eu4mod.gfx
+  # variable.assignement.eu4mod.gfx
+  'comment': 'comment.line.number-sign.eu4mod.gfx'
+
+  # Types
+  'gfx_types > types_name': 'support.class.eu4mod.gfx'
+  'gfx_types > assign_equal': 'keyword.operator.assign.eu4mod.gfx'
+
+  # Type
+  'gfx_type > type_name': 'support.function.eu4mod.gfx'
+  'gfx_type > assign_equal': 'keyword.operator.assign.eu4mod.gfx'
+
+  # Attribut
+  'gfx_attribut > attribut_name': 'variable.assignement.eu4mod.gfx'
+  'gfx_attribut > assign_equal': 'keyword.operator.assign.eu4mod.gfx'
+
+  # Value
+  'gfx_attribut > string': 'string.quoted.double.eu4mod.gfx'
+  'gfx_attribut > number': 'constant.numeric.eu4mod.gfx'
+
+  # Temporary color unhandled content :
+  'debug_name': 'variable.assignement.eu4mod.gfx'
+  'assign_equal': 'keyword.operator.assign.eu4mod.gfx'
+  'string': 'string.quoted.double.eu4mod.gfx'
+  'number': 'constant.numeric.eu4mod.gfx'
+
+  # For debug : comment / decomment
+  #'debug_loop': 'invalid.deprecated.warning.eu4mod.gfx'
+  #'debug_name': 'invalid.illegal.debug.eu4mod.gfx'
