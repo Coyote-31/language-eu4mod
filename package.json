@@ -1,6 +1,6 @@
 {
   "name": "language-eu4mod",
-  "version": "0.3.1",
+  "version": "0.4.0",
   "description": "EU4 language support in Atom. [Alpha]",
   "keywords": [
     "treesitter",
