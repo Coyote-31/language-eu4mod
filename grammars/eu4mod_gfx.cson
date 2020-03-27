@@ -9,34 +9,37 @@ fileTypes: [
 ]
 
 scopes:
-  # meta.tag.eu4mod.gfx
-  # entity.name.eu4mod.gfx
-  # entity.other.eu4mod.gfx
-  # variable.assignement.eu4mod.gfx
+
   'comment': 'comment.line.number-sign.eu4mod.gfx'
 
   # Types
-  'gfx_types > types_name': 'support.class.eu4mod.gfx'
-  'gfx_types > assign_equal': 'keyword.operator.assign.eu4mod.gfx'
+  'gfx_types_definition > identifier': 'support.constant.eu4mod.gfx'
+  'gfx_types_definition > assign_equal': 'keyword.operator.assign.eu4mod.gfx'
+  'gfx_types_definition > statement > identifier': 'variable.eu4mod.gfx'
 
   # Type
-  'gfx_type > type_name': 'support.function.eu4mod.gfx'
-  'gfx_type > assign_equal': 'keyword.operator.assign.eu4mod.gfx'
-
-  # Attribut
-  'gfx_attribut > attribut_name': 'variable.assignement.eu4mod.gfx'
-  'gfx_attribut > assign_equal': 'keyword.operator.assign.eu4mod.gfx'
+  'gfx_type_definition > identifier': 'entity.name.type.eu4mod.gfx'
+  'gfx_type_definition > assign_equal': 'keyword.operator.assign.eu4mod.gfx'
+  'gfx_type_definition > statement > identifier': 'variable.eu4mod.gfx'
 
   # Value
-  'gfx_attribut > string': 'string.quoted.double.eu4mod.gfx'
-  'gfx_attribut > number': 'constant.numeric.eu4mod.gfx'
+  'statement > string': 'string.quoted.double.eu4mod.gfx'
+  'statement > number': 'constant.numeric.eu4mod.gfx'
 
   # Temporary color unhandled content :
-  'debug_name': 'variable.assignement.eu4mod.gfx'
-  'assign_equal': 'keyword.operator.assign.eu4mod.gfx'
-  'string': 'string.quoted.double.eu4mod.gfx'
-  'number': 'constant.numeric.eu4mod.gfx'
+  'debug_name': 'variable.eu4mod.gfx'
 
-  # For debug : comment / decomment
-  #'debug_loop': 'invalid.deprecated.warning.eu4mod.gfx'
-  #'debug_name': 'invalid.illegal.debug.eu4mod.gfx'
+  # For debug comment / decomment :
+  #'debug_loop': 'invalid.deprecated.eu4mod.gfx'
+  #'debug_name': 'invalid.illegal.eu4mod.gfx'
+
+# One Dark colors association :
+#
+# comment (grey)
+# string (green)
+# support.function / support.type / string.regexp (cyan)
+# entity.name.function / entity.name.section (blue)
+# entity.name.type / support.class (gold)
+# constant / support.constant (orange)
+# variable / support.variable (red)
+# keyword / storage (pink)
