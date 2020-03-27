@@ -6,7 +6,7 @@
 
 ## 📄 Description
 
-This package is a **global EU4 grammar** powered by **[tree-sitter](http://tree-sitter.github.io/tree-sitter/)** and developed for the **[Atom ⚛️](https://atom.io)** text editor.  
+This package is a **global EU4 grammar** powered by **[tree-sitter](http://tree-sitter.github.io/tree-sitter/)** and developed for the **[⚛️Atom](https://atom.io)** text editor.  
 It supports the various languages found in EU4 files. As this grammar is focused on developers working on EU4 mods it provides a *syntax-tree* with *scope mappings* able to handle any language used in files inside EU4 directory. Mainly for modding purposes.
 
 ### How to install :
@@ -15,15 +15,17 @@ To install [`language-eu4mod`](https://atom.io/packages/language-eu4mod) it's li
 - Simply in the Atom's settings : `settings > install`.
 - From [atom.io](https://atom.io/packages/) registry : [`language-eu4mod`](https://atom.io/packages/language-eu4mod)
 - via CLI  :
+
         apm install language-eu4mod
+
 
 ### Which EU4 file extension is managed :
 
-| Extension | Supported |
-|  :---:    |   :---:   |
-|   .mod    |    ✅     |
-|   .gfx    |    ✅     |
-|   .gui    |    ❌     |
+Extension | Supported
+:---:    |   :---:
+.mod    |    ✅
+.gfx    |    ✅
+.gui    |    ❌
 
 
 ## 📚 Documentation
@@ -35,8 +37,8 @@ In Atom syntax highlighting is define with `css` class. And this package map the
 
 ### Repository & Releases :
 
-| Link | Info |
-|    :---:     |   :---:   |
+Link | Info
+:---:     |   :---:
 **[GitHub repository](https://github.com/Coyote-31/language-eu4mod)** | [![GitHub commits](https://badgen.net/github/commits/Coyote-31/language-eu4mod?icon=git&label=total%20commits)](https://github.com/Coyote-31/language-eu4mod/commits/master)
 **[Last release](https://github.com/Coyote-31/language-eu4mod/releases/latest)** | [![GitHub tag (latest by date)](https://badgen.net/github/tag/Coyote-31/language-eu4mod?icon=atom&label=last%20release)](https://github.com/Coyote-31/language-eu4mod/releases/latest)
 **[All releases](https://github.com/Coyote-31/language-eu4mod/releases)** | [![total releases](https://badgen.net/github/tags/Coyote-31/language-eu4mod?icon=npm&label=total%20releases)](https://github.com/Coyote-31/language-eu4mod/releases)
@@ -46,8 +48,8 @@ In Atom syntax highlighting is define with `css` class. And this package map the
 
 If you have any issue or find a bug please :
 
-| **[Open an issue on GitHub](https://github.com/Coyote-31/language-eu4mod/issues)** | ![GitHub issues](https://img.shields.io/github/issues/Coyote-31/language-eu4mod?logo=github) |
-|    :---:     |   :---:   |
+**[Open an issue on GitHub](https://github.com/Coyote-31/language-eu4mod/issues)** | [![GitHub issues](https://img.shields.io/github/issues/Coyote-31/language-eu4mod?logo=github)](https://github.com/Coyote-31/language-eu4mod/issues)
+:---:     |   :---:
 
 
 ## 🔍 See also
