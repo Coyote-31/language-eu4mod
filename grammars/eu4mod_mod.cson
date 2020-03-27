@@ -10,13 +10,26 @@ fileTypes: [
 
 scopes:
 
-  'dot_mod > mod_line_mono > mod_line_mono_name': 'variable.assignement.eu4mod.mod'
-  'dot_mod > mod_line_mono > assign_equal': 'keyword.operator.assign.eu4mod.mod'
-  'dot_mod > mod_line_mono > string': 'string.quoted.double.eu4mod.mod'
+  # Global rules
+  'dot_mod > identifier': 'variable.eu4mod.mod'
+  'dot_mod > assign_equal': 'keyword.operator.assign.eu4mod.mod'
+  'dot_mod > string': 'string.quoted.double.eu4mod.mod'
 
-  'dot_mod > mod_line_multi > mod_line_multi_name': 'variable.assignement.eu4mod.mod'
-  'dot_mod > mod_line_multi > assign_equal': 'keyword.operator.assign.eu4mod.mod'
-  'dot_mod > mod_line_multi > string': 'string.quoted.double.eu4mod.mod'
+  # Mod's name
+  'dot_mod > mod_name_identifier': 'support.variable.eu4mod.mod'
+  'dot_mod > mod_name_value': 'entity.name.function.eu4mod.mod'
 
-  'warning_space_tab': 'invalid.deprecated.warning.eu4mod.mod'
-  'debug': 'invalid.illegal.debug.eu4mod.mod'
+  # Others
+  'dot_mod > dependencies': 'support.function.eu4mod.mod'
+  'dot_mod > tags_keyword': 'support.constant.eu4mod.mod'
+
+# One Dark colors association :
+#
+# comment (grey)
+# string (green)
+# support.function / support.type / string.regexp (cyan)
+# entity.name.function / entity.name.section (blue)
+# entity.name.type / support.class (gold)
+# constant / support.constant (orange)
+# variable / support.variable (red)
+# keyword / storage (pink)
