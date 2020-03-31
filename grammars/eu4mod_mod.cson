@@ -16,8 +16,8 @@ scopes:
   'dot_mod > string': 'string.quoted.double.eu4mod.mod'
 
   # Mod's name
-  'dot_mod > mod_name_identifier': 'support.variable.eu4mod.mod'
-  'dot_mod > mod_name_value': 'entity.name.function.eu4mod.mod'
+  'dot_mod > name_identifier': 'support.variable.eu4mod.mod'
+  'dot_mod > name_value': 'entity.name.function.eu4mod.mod'
 
   # Others
   'dot_mod > dependencies': 'support.function.eu4mod.mod'
