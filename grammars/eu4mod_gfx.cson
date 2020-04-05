@@ -30,6 +30,7 @@ scopes:
   # Name
   'statement > name_identifier': 'support.variable.eu4mod.gfx'
   'statement > name_value': 'entity.name.function.eu4mod.gfx'
+  'statement > name_gfx_value': 'entity.name.function.eu4mod.gfx'
 
   # Value
   'statement > string': 'string.quoted.double.eu4mod.gfx'
