@@ -25,7 +25,7 @@ Extension | Supported
 :---:    |   :---:
 .mod    |    ✅
 .gfx    |    ✅
-.gui    |    ❌
+.gui    |    ✅
 
 
 ## 📚 Documentation
@@ -57,6 +57,10 @@ If you have any issue or find a bug please :
 > - **[Creating a grammar](https://flight-manual.atom.io/hacking-atom/sections/creating-a-grammar/)** (Atom flight manual)
 > - **[Tree Sitter](https://tree-sitter.github.io/tree-sitter/)** (Docs)
 > - **[`tree-sitter-eu4mod`](https://github.com/Coyote-31/tree-sitter-eu4mod#readme)**  (Parser)
+- **EU4 definition** :
+  - **[GUI/GFX Xyloz](https://eu4.paradoxwikis.com/User:Xyloz/sandbox)** (eu4.paradoxwikis)
+  - **[Interface modding](https://eu4.paradoxwikis.com/Interface_modding)**  (eu4.paradoxwikis)
+  - **[Graphical asset modding](https://eu4.paradoxwikis.com/Graphical_asset_modding)**  (eu4.paradoxwikis)
 
 
 ## ©️ License
