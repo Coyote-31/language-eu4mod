@@ -22,6 +22,10 @@ scopes:
   'dot_gui > types_definition > type_definition > assign_equal': 'keyword.operator.assign.eu4mod.gui'
   'dot_gui > types_definition > type_definition > statement > identifier': 'variable.eu4mod.gui'
 
+  'type_definition > type_definition > identifier': 'support.function.type.eu4mod.gui'
+  'type_definition > type_definition > assign_equal': 'keyword.operator.assign.eu4mod.gui'
+  'type_definition > type_definition > statement > identifier': 'variable.eu4mod.gui'
+
   # Statements
 
   # Assign sign
