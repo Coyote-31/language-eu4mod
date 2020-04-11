@@ -46,7 +46,7 @@ scopes:
 
   'statement > boolean': 'constant.language.eu4mod.gfx'
 
-  'statement > keyword': 'support.type.eu4mod.gfx'
+  'statement > keyword': 'keyword.type.eu4mod.gfx'
 
 # One Dark colors association :
 #

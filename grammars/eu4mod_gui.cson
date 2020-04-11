@@ -50,7 +50,7 @@ scopes:
 
   'statement > boolean': 'constant.language.eu4mod.gui'
 
-  'statement > keyword': 'support.type.eu4mod.gui'
+  'statement > keyword': 'keyword.eu4mod.gui'
 
 # One Dark colors association :
 #
