@@ -1,0 +1,60 @@
+name: 'EU4 .gui'
+scopeName: 'source.eu4mod.gui'
+type: 'tree-sitter'
+parser: 'tree-sitter-eu4mod'
+
+# File's extensions managed
+fileTypes: [
+  'gui'
+]
+
+scopes:
+
+  'comment': 'comment.line.number-sign.eu4mod.gui'
+
+  # Types
+  'dot_gui > types_definition > identifier': 'support.constant.eu4mod.gui'
+  'dot_gui > types_definition > assign_equal': 'keyword.operator.assign.eu4mod.gui'
+  'dot_gui > types_definition > statement > identifier': 'variable.eu4mod.gui'
+
+  # Type
+  'dot_gui > types_definition > type_definition > identifier': 'entity.name.type.eu4mod.gui'
+  'dot_gui > types_definition > type_definition > assign_equal': 'keyword.operator.assign.eu4mod.gui'
+  'dot_gui > types_definition > type_definition > statement > identifier': 'variable.eu4mod.gui'
+
+  # Statements
+
+  # Assign sign
+  'statement > assign_equal': 'keyword.operator.assign.eu4mod.gui'
+
+  # Name
+  'statement > name_identifier': 'support.variable.eu4mod.gui'
+  'statement > name_value': 'entity.name.function.eu4mod.gui'
+  'statement > name_gui_value': 'entity.name.function.eu4mod.gui'
+
+  # Value
+  'statement > string': 'string.quoted.double.eu4mod.gui'
+
+  '''
+  statement > number,
+  statement > float,
+  statement > integer,
+  statement > byte,
+  statement > hexadecimal,
+  statement > angle,
+  ''': 'constant.numeric.eu4mod.gui'
+
+  'statement > boolean': 'constant.language.eu4mod.gui'
+
+  'statement > keyword': 'support.type.eu4mod.gui'
+
+# One Dark colors association :
+#
+# comment (grey)
+# string (green)
+# support.function / support.type / string.regexp (cyan)
+# entity.name.function / entity.name.section (blue)
+# entity.name.type / support.class (gold)
+# constant / support.constant (orange)
+# variable / support.variable (red)
+# keyword / storage (pink)
