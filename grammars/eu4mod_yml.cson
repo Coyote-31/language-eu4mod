@@ -21,9 +21,9 @@ scopes:
   # Formatting :
   'dot_yml > localization_string > localization_color': 'support.function.eu4mod.yml'
   'dot_yml > localization_string > formatting_boundary': 'keyword.operator.boundary.eu4mod.yml'
-  'dot_yml > localization_string > formatting_variable': 'support.variable.eu4mod.yml'
+  'dot_yml > localization_string > formatting_variable': 'support.constant.eu4mod.yml'
   'dot_yml > localization_string > formatting_delimiter': 'keyword.operator.delimiter.eu4mod.yml'
-  'dot_yml > localization_string > formatting_rule': 'support.type.rule.eu4mod.yml'
+  'dot_yml > localization_string > formatting_rule': 'support.class.rule.eu4mod.yml'
 
   # Symbols :
   'dot_yml > assign_colon': 'keyword.operator.assign.eu4mod.yml'
