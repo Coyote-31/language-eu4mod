@@ -10,6 +10,9 @@ fileTypes: [
 
 scopes:
 
+  # Comment :
+  'comment': 'comment.line.eu4mod.yml'
+
   # Language:
   'dot_yml > localization_language_name': 'entity.name.section.eu4mod.yml'
 
@@ -19,11 +22,11 @@ scopes:
   'dot_yml > localization_string': 'string.eu4mod.yml'
 
   # Formatting :
-  'dot_yml > localization_string > localization_color': 'support.function.eu4mod.yml'
-  'dot_yml > localization_string > formatting_boundary': 'keyword.operator.boundary.eu4mod.yml'
-  'dot_yml > localization_string > formatting_variable': 'support.constant.eu4mod.yml'
-  'dot_yml > localization_string > formatting_delimiter': 'keyword.operator.delimiter.eu4mod.yml'
-  'dot_yml > localization_string > formatting_rule': 'support.class.rule.eu4mod.yml'
+  'localization_string > localization_color': 'support.function.eu4mod.yml'
+  'localization_string > formatting_boundary': 'keyword.operator.boundary.eu4mod.yml'
+  'localization_string > formatting_variable': 'support.constant.eu4mod.yml'
+  'localization_string > formatting_delimiter': 'keyword.operator.delimiter.eu4mod.yml'
+  'localization_string > formatting_rule': 'support.class.rule.eu4mod.yml'
 
   # Symbols :
   'dot_yml > assign_colon': 'keyword.operator.assign.eu4mod.yml'
