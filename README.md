@@ -1,4 +1,4 @@
-# **`language-eu4mod`** [Alpha]
+# **`language-eu4mod`**
 
 [![APM](https://img.shields.io/apm/v/language-eu4mod?color=%23147dce&logo=atom&logoColor=%2380f2a6)](https://atom.io/packages/language-eu4mod) [![Travis (.com)](https://img.shields.io/travis/com/Coyote-31/language-eu4mod?label=Atom%20CI&logo=Travis)](https://travis-ci.com/github/Coyote-31/language-eu4mod) [![GitHub](https://img.shields.io/github/license/Coyote-31/language-eu4mod?color=%230f1014)](https://github.com/Coyote-31/language-eu4mod/blob/master/LICENSE)
 
@@ -7,7 +7,7 @@
 ## 📄 Description
 
 This package is a **global EU4 grammar** powered by **[tree-sitter](http://tree-sitter.github.io/tree-sitter/)** and developed for the **[⚛️Atom](https://atom.io)** text editor.  
-It supports the various languages found in EU4 files. As this grammar is focused on developers working on EU4 mods it provides a *syntax-tree* with *scope mappings* able to handle any language used in files inside EU4 directory. Mainly for modding purposes.
+It supports the various languages, from extensions listed below, found in EU4 files. As this grammar is focused on developers working on EU4 mods it provides a *syntax-tree* with *scope mappings* able to handle any language used in files inside EU4 directory. Mainly for modding purposes.
 
 ### How to install :
 
