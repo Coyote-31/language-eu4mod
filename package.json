@@ -1,7 +1,7 @@
 {
   "name": "language-eu4mod",
   "version": "0.7.1",
-  "description": "EU4 language support in Atom. [Alpha]",
+  "description": "EU4 language support in Atom.",
   "keywords": [
     "treesitter",
     "tree-sitter",
@@ -24,7 +24,7 @@
     "url": "https://github.com/Coyote-31/language-eu4mod"
   },
   "dependencies": {
-    "tree-sitter-eu4mod": "^0.6.0"
+    "tree-sitter-eu4mod": "^1.0.0"
   },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
