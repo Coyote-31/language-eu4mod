@@ -23,10 +23,12 @@ scopes:
 
   # Formatting :
   'localization_string > localization_color': 'support.function.eu4mod.yml'
+  'localization_string > localization_gold': 'support.class.eu4mod.yml'
   'localization_string > formatting_boundary': 'keyword.operator.boundary.eu4mod.yml'
   'localization_string > formatting_variable': 'support.constant.eu4mod.yml'
   'localization_string > formatting_delimiter': 'keyword.operator.delimiter.eu4mod.yml'
   'localization_string > formatting_rule': 'support.class.rule.eu4mod.yml'
+  'localization_string > formatting_icon': 'entity.name.function.eu4mod.yml'
 
   # Symbols :
   'dot_yml > assign_colon': 'keyword.operator.assign.eu4mod.yml'
